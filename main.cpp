@@ -14,9 +14,9 @@ void draw()
     glClear(GL_COLOR_BUFFER_BIT);
     glColor3f(1.0, 1.0, 1.0);
     glLineWidth(2.5);
-    glBegin(GL_LINES);
+    glBegin(GL_LINES); 
 
-    glColor3f(0.0, 0.0, 1.0);   //Warna Biru
+    glColor3f(1.0, 0.0, 0.0);   //Warna Merah
     glVertex3f(0.2, 0.5, 0.0);  // Koordinat Titik 1
     glVertex3f(0.8, 0.5, 0.0);  // Koordinat Titik 2
 
